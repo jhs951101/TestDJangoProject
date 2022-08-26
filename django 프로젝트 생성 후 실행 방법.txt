@@ -1,0 +1,20 @@
+pip install Django
+
+(절대경로)/myenv/bin/python -m pip install --upgrade pip
+
+django-admin startproject (A)
+
+cd (A)
+
+python manage.py runserver (Mac)
+
+python manage.py startapp (B)
+
+(A) 폴더 안에 (A) 폴더가 하나 더 생겼을 것임. 이 (A)/(A) 폴더 내의 urls.py 내용 수정
+
+(B) 폴더 내의 urls.py 생성 후 내용 입력
+
+(B) 폴더 내의 views.py 내용 수정
+
+
+** 가장 중요한 파일: (B)/urls.py (B)/views.py
