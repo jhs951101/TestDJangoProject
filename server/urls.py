@@ -1,8 +1,8 @@
 from django.urls import path
-
-from . import views
+from .scripts import home
 
 urlpatterns = [
-    path('test/', views.test, name='test'),
-    path('test2/', views.test2, name='test2'),
+    path('get/', home.get, name='get'),
+    path('post/', home.post, name='post'),
+    path('postjson/', home.postjson, name='postjson'),
 ];
